@@ -1,0 +1,14 @@
+{
+  // include - 컴파일 범위 지정 옵션
+  "include": ["src"],
+  "compilerOptions": {
+    // target - 컴파일 결과 생성되는 자바스크립트 버전 지정 옵션 
+    "target": "ESNext",
+    // module - 자바스크립트 모듈 시스템 지정
+    "module": "ESNext",
+    // outDir - 컴파일 결과 생성되는 자바스크립트 파일 생성 경로 지정
+    "outDir": "dist",
+    // moduleDetection - 기본적으로 전역 모듈로 취급되는 타입스크립트 파일들을 로컬 모듈로 취급하도록 지정
+    "moduleDetection": "force"
+  }
+}
